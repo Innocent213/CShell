@@ -2,7 +2,9 @@
 clear
 
 chmod 777 Cleanup.sh
+chmod 777 StartCShell.sh
 chmod 777 Utils/CompileUtils.sh
+chmod 777 Utils/StartNSSHClient.sh
 chmod 777 scripts/InstallDependencies.sh
 chmod 777 scripts/Install_cJSON.sh
 bash scripts/InstallDependencies.sh
