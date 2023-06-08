@@ -6,7 +6,7 @@ chmod 777 Utils/CompileUtils.sh
 chmod 777 scripts/InstallDependencies.sh
 chmod 777 scripts/Install_cJSON.sh
 bash scripts/InstallDependencies.sh
-# bash scripts/Install_cJSON.sh
+bash scripts/Install_cJSON.sh
 
 gcc -c lib/CSHLib.c -o lib/CSHLib.o -I../lib/cJSON -L../lib/cJSON -lcjson
 ar rcs lib/libCSHLib.a lib/CSHLib.o
