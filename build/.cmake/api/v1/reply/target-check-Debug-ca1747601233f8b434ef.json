@@ -1,0 +1,155 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"tests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 264,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "cjson_add::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "readme_examples::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "minify_tests::@a44f0ac069e85531cdee"
+		},
+		{
+			"id" : "cJSON_test::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "print_value::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "misc_tests::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "parse_with_opts::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "compare_tests::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "print_number::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "print_array::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "print_object::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "parse_hex4::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "parse_string::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "parse_array::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "parse_object::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "parse_value::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "print_string::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "parse_examples::@a44f0ac069e85531cdee"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "parse_number::@a44f0ac069e85531cdee"
+		}
+	],
+	"id" : "check::@6890427a1f51a3e7e1df",
+	"name" : "check",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/check",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/check.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

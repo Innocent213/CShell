@@ -1,0 +1,45 @@
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wcomma failed with the following output:
+Change Dir: /home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a48bf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a48bf.dir/build.make CMakeFiles/cmTC_a48bf.dir/build
+gmake[1]: Entering directory '/home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a48bf.dir/src.c.o
+/usr/bin/gcc -DFLAG_SUPPORTED_Wcomma  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong    -Wcomma -o CMakeFiles/cmTC_a48bf.dir/src.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/CMakeTmp/src.c
+gcc: error: unrecognized command-line option '-Wcomma'; did you mean '-Wcomment'?
+gmake[1]: *** [CMakeFiles/cmTC_a48bf.dir/build.make:78: CMakeFiles/cmTC_a48bf.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a48bf/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wmissingvariabledeclarations failed with the following output:
+Change Dir: /home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e85b2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e85b2.dir/build.make CMakeFiles/cmTC_e85b2.dir/build
+gmake[1]: Entering directory '/home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e85b2.dir/src.c.o
+/usr/bin/gcc -DFLAG_SUPPORTED_Wmissingvariabledeclarations  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros    -Wmissing-variable-declarations -o CMakeFiles/cmTC_e85b2.dir/src.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/CMakeTmp/src.c
+gcc: error: unrecognized command-line option '-Wmissing-variable-declarations'; did you mean '-Wmissing-declarations'?
+gmake[1]: *** [CMakeFiles/cmTC_e85b2.dir/build.make:78: CMakeFiles/cmTC_e85b2.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e85b2/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test FLAG_SUPPORTED_Wusedbutmarkedunused failed with the following output:
+Change Dir: /home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e78c4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e78c4.dir/build.make CMakeFiles/cmTC_e78c4.dir/build
+gmake[1]: Entering directory '/home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e78c4.dir/src.c.o
+/usr/bin/gcc -DFLAG_SUPPORTED_Wusedbutmarkedunused  -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros    -Wused-but-marked-unused -o CMakeFiles/cmTC_e78c4.dir/src.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/CMakeTmp/src.c
+gcc: error: unrecognized command-line option '-Wused-but-marked-unused'
+gmake[1]: *** [CMakeFiles/cmTC_e78c4.dir/build.make:78: CMakeFiles/cmTC_e78c4.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/ubuntuschule/Documents/C_Programme/CShell/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e78c4/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }

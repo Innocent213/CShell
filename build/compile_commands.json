@@ -1,0 +1,117 @@
+[
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES -Dcjson_EXPORTS   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -fPIC -o CMakeFiles/cjson.dir/cJSON.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/cJSON.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/cJSON.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/cJSON_test.dir/test.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/test.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/test.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -Wno-error -fvisibility=default -Wno-switch-enum -o CMakeFiles/unity.dir/unity/src/unity.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/unity/src/unity.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/unity/src/unity.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/cjson_add.dir/cjson_add.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/cjson_add.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/cjson_add.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/readme_examples.dir/readme_examples.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/readme_examples.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/readme_examples.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/minify_tests.dir/minify_tests.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/minify_tests.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/minify_tests.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/print_value.dir/print_value.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/print_value.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/print_value.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/misc_tests.dir/misc_tests.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/misc_tests.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/misc_tests.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/parse_with_opts.dir/parse_with_opts.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_with_opts.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_with_opts.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/compare_tests.dir/compare_tests.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/compare_tests.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/compare_tests.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/print_number.dir/print_number.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/print_number.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/print_number.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/print_array.dir/print_array.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/print_array.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/print_array.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/print_object.dir/print_object.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/print_object.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/print_object.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/parse_hex4.dir/parse_hex4.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_hex4.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_hex4.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/parse_string.dir/parse_string.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_string.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_string.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/parse_array.dir/parse_array.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_array.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_array.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/parse_object.dir/parse_object.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_object.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_object.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/parse_value.dir/parse_value.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_value.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_value.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/print_string.dir/print_string.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/print_string.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/print_string.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/parse_examples.dir/parse_examples.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_examples.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_examples.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/tests",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/parse_number.dir/parse_number.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_number.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/tests/parse_number.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/fuzzing",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/fuzz_main.dir/fuzz_main.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/fuzzing/fuzz_main.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/fuzzing/fuzz_main.c"
+},
+{
+  "directory": "/home/ubuntuschule/Documents/C_Programme/CShell/build/fuzzing",
+  "command": "/usr/bin/gcc -DCJSON_API_VISIBILITY -DCJSON_EXPORT_SYMBOLS -DENABLE_LOCALES   -std=c89 -pedantic -Wall -Wextra -Werror -Wstrict-prototypes -Wwrite-strings -Wshadow -Winit-self -Wcast-align -Wformat=2 -Wmissing-prototypes -Wstrict-overflow=2 -Wcast-qual -Wundef -Wswitch-default -Wconversion -Wc++-compat -fstack-protector-strong -Wdouble-promotion -Wparentheses -Wformat-overflow -Wunused-macros -Wswitch-enum -fvisibility=hidden  -g -o CMakeFiles/fuzz_main.dir/cjson_read_fuzzer.c.o -c /home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/fuzzing/cjson_read_fuzzer.c",
+  "file": "/home/ubuntuschule/Documents/C_Programme/CShell/lib/cJSON/fuzzing/cjson_read_fuzzer.c"
+}
+]
