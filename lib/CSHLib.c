@@ -1,5 +1,5 @@
 #include "CSHLib.h"
-#include "../lib/cJSON/cJSON.h"
+#include "cJSON/cJSON.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/stat.h>

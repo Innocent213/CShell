@@ -1,6 +1,6 @@
 #include <string.h>
 #include <stdbool.h>
-#include "../lib/cJSON/cJSON.h"
+#include "cJSON/cJSON.h"
 #include "ANSILib.h"
 #include <sys/socket.h>
 #include <arpa/inet.h>
