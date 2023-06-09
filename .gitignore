@@ -8,3 +8,7 @@
 /lib/NSSHLib.o
 /CShell
 /lib/cJSON
+/server.crt
+/server.key
+/config.json
+/Moduls/TestModule
