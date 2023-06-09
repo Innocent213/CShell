@@ -45,6 +45,17 @@ else
     echo "$PACKAGE_NAME is already installed!"
 fi
 
+PACKAGE_NAME="openssl"
+dpkg -l $PACKAGE_NAME | grep -e "^ii" > intall_cache.txt
+if [ -z "$(cat "intall_cache.txt")" ]; then
+    echo "Installing $PACKAGE_NAME..."
+    apt-get -qq -y install $PACKAGE_NAME >/dev/null 2>&1
+    echo "$PACKAGE_NAME successfully installed!"
+    INSTALLED_PACKAGE=true
+else
+    echo "$PACKAGE_NAME is already installed!"
+fi
+
 if [ $INSTALLED_PACKAGE ]; then
     rm intall_cache.txt
 fi
