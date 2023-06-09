@@ -20,5 +20,5 @@ if [ $EUID -eq 0 ]; then
     cd Utils
     ./CompileUtils.sh
 else
-  echo "Please execute this Script with Administratorrights."
+  echo "Please execute this Script with Administratorrights! (sudo)"
 fi

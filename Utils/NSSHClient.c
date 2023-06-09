@@ -18,9 +18,7 @@ int main(int argc, char *argv[]) {
         } while(strlen(IP) == 0);
         printf("Enter the Port of the CShell: ");
         scanf("%d", &port);
-    }
-    int running = 1;
-    
+    }    
     NSSHClient *client = nsshClient_Initialize(IP, port);
     printf("Connecting to Server '%s' with the port '%d'...\n", inet_ntoa(client->client.sin_addr), client->port);
     if (nsshClient_Connect(client)) {
@@ -34,39 +32,44 @@ int main(int argc, char *argv[]) {
         nsshClient_ReciveMessage(client, message);
 
         if (strcmp(message, "DONE") == 0) {
-            while(running) {
+            client->running = 1;
+            while(client->running) {
                 printf("> ");
                 fgets(buffer, 10000, stdin);
                 buffer[strlen(buffer)-1] = '\0';
                 
-                if (strcmp(buffer, "exit") == 0) {
-                    running = 0;
-                } else if (strcmp(buffer, "clear") == 0) {
-                    system("clear");
-                } else {
-                    // Befehl ausführen
-                    cJSON *root = cJSON_CreateObject();
-                    cJSON_AddItemToObject(root, "mode", cJSON_CreateString("execute"));
-                    cJSON_AddItemToObject(root, "command", cJSON_CreateString(buffer));
+                if (client->running) {
+                    if (strcmp(buffer, "exit") == 0) {
+                        client->running = 0;
+                    } else if (strcmp(buffer, "clear") == 0) {
+                        system("clear");
+                    } else {
+                        // Befehl ausführen
+                        cJSON *root = cJSON_CreateObject();
+                        cJSON_AddItemToObject(root, "mode", cJSON_CreateString("execute"));
+                        cJSON_AddItemToObject(root, "command", cJSON_CreateString(buffer));
 
-                    char *json = cJSON_PrintUnformatted(root);
-                    nsshClient_SendMessage(client, json);
-                    cJSON_Delete(root);
-                    
-                    while(1) {
-                        nsshClient_ReciveMessage(client, buffer);
-                        root = cJSON_Parse(buffer);
-                        char *mode = cJSON_GetStringValue(cJSON_GetObjectItem(root, "mode"));
-                        if (strcmp(mode, "print") == 0) {
-                            char *message = cJSON_GetStringValue(cJSON_GetObjectItem(root, "message"));
-                            printf("%s", message);
-                        } else if (strcmp(mode, "printJSON") == 0) {
-                            printf("%s", cJSON_PrintUnformatted(cJSON_GetObjectItem(root, "json")));
-                        } else if (strcmp(mode, "done") == 0) {
-                            break;
-                        }
+                        char *json = cJSON_PrintUnformatted(root);
+                        nsshClient_SendMessage(client, json);
                         cJSON_Delete(root);
+                        
+                        while(1) {
+                            nsshClient_ReciveMessage(client, buffer);
+                            root = cJSON_Parse(buffer);
+                            char *mode = cJSON_GetStringValue(cJSON_GetObjectItem(root, "mode"));
+                            if (strcmp(mode, "print") == 0) {
+                                char *message = cJSON_GetStringValue(cJSON_GetObjectItem(root, "message"));
+                                printf("%s", message);
+                            } else if (strcmp(mode, "printJSON") == 0) {
+                                printf("%s", cJSON_PrintUnformatted(cJSON_GetObjectItem(root, "json")));
+                            } else if (strcmp(mode, "done") == 0) {
+                                break;
+                            }
+                            cJSON_Delete(root);
+                        }
                     }
+                } else {
+                    printf("Client disconnected!\n");
                 }
             }
         } else if (strcmp(message, "BANNED") == 0) {

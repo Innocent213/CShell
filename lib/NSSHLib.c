@@ -8,7 +8,9 @@
 int WriteMessage(NSSHClient *data, char *message) {
     int error = SSL_write(data->ssl , message , strlen(message));
     if (error <= 0) {
-        return error;
+        data->running = 0;
+        printf("Client disconnected!\n");
+        exit(1);
     }
     return 1;
 }
@@ -17,7 +19,9 @@ int ReadMessage(NSSHClient *data, char *message) {
     int read_size = SSL_read(data->ssl, message, 1000);
     if (read_size <= 0)
     {
-        return read_size;
+        data->running = 0;
+        printf("Client disconnected!\n");
+        exit(1);
     }
     return 1;
 }

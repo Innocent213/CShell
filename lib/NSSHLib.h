@@ -20,6 +20,7 @@ typedef struct {
     int port;
     char hostname[100];
     char mac[18];
+    int running;
 } NSSHClient;
 
 int WriteMessage(NSSHClient *client, char *message);
