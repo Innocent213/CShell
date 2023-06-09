@@ -1,3 +1,10 @@
 /.vscode
 /TestApp
 /TestApp.c
+/Utils/NSSHClient
+/lib/CSHLib.o
+/lib/libCSHLib.a
+/lib/libNSSHLib.a
+/lib/NSSHLib.o
+/CShell
+/lib/cJSON
