@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rm config.json --force
 rm server.crt --force
 rm server.key --force

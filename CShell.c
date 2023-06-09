@@ -107,6 +107,7 @@ Features:
 
 Bekannte Probleme:
     - Programm stürzt ab, wenn es zum ersten Mal gestartet wird und sich ein Client verbindet
+    - Programm stürtz ab, wenn man den Befehl 'nssh clients' ausführt und man aber mit 'cd' den Ordner der CShell verlassen hat und nicht mehr zurückwechselt
 
 Todo:
     - Autovervollständigung

@@ -3,19 +3,23 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main(int argc, char *argv[]) {
     char IP[40];
     int port = 8921;
     char buffer[10000] = {0};
+    if (argc == 3) {
+        strcpy(IP, argv[1]);
+        port = atoi(argv[2]);
+    } else {
+        do {
+            printf("Enter the IP of the CShell: ");
+            fgets(IP, 40, stdin);
+            IP[strlen(IP)-1] = '\0';
+        } while(strlen(IP) == 0);
+        printf("Enter the Port of the CShell: ");
+        scanf("%d", &port);
+    }
     int running = 1;
-
-    do {
-        printf("Enter the IP of the CShell: ");
-        fgets(IP, 40, stdin);
-        IP[strlen(IP)-1] = '\0';
-    } while(strlen(IP) == 0);
-    printf("Enter the Port of the CShell: ");
-    scanf("%d", &port);
     
     NSSHClient *client = nsshClient_Initialize(IP, port);
     printf("Connecting to Server '%s' with the port '%d'...\n", inet_ntoa(client->client.sin_addr), client->port);
