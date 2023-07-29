@@ -16,6 +16,7 @@
 #define MAX_ARGS_STRING 20
 #define MAX_ARGS 20
 #define MAX_COMMAND_DESCRIPTION 200
+#define MAX_HANDLER 30
 
 #define MAX_MANPAGE_TITLE 100
 #define MAX_MANPAGE_TEXT 100000
@@ -39,6 +40,7 @@
 typedef char *(*OnInitFunc)();
 typedef char *(*OnExecutionFunc)(char *, char **, int);
 typedef char *(*OnEventFunc)(cJSON *);
+typedef char *(*HandlerFunc)();
 
 typedef struct {
     char version[MAX_MODULE_VERSION];
@@ -91,16 +93,23 @@ typedef struct {
 } ModuleCommand;
 
 typedef struct {
+    pthread_t thread;
+    HandlerFunc handler_func;
+} ModuleHandler;
+
+typedef struct {
     ModuleCommand commands[MAX_COMMANDS];
     ModuleEvent events[MAX_EVENTS];
+    ModuleHandler handler[MAX_HANDLER];
     int command_count;
     int event_count;
     int pipe;
     OnInitFunc onInit;
     OnExecutionFunc onExecution;
     CSHModuleInfo Info;
-    char *folder_path;
-    char *executable_path;
+    char folder_path[MAX_PATH];
+    char executable_path[MAX_PATH];
+    char fifopath[MAX_PATH];
 } CSHModule;
 
 typedef struct {

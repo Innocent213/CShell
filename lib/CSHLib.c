@@ -68,7 +68,7 @@ void csh_BuildModule(char *name, char *author, char *version, char *description,
         }
 
         module->onInit = onInit;
-        module->folder_path = global_args[1];
+        strcpy(module->folder_path, global_args[1]);
         char *error;
         if (state == STATE_INIT) {
             // JSON-Objekt erstellen

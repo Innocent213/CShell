@@ -68,7 +68,7 @@ char *onTestExecution(char *cmd, char *args[], int args_count) {
     cJSON *data = cJSON_CreateObject();
     cJSON_AddItemToObject(data, "test", cJSON_CreateString("teststring"));
 
-    csh_callEvent("testevent", data);
+    // csh_callEvent("testevent", data);
     // CSHConfig config = csh_GetConfig();
     return NULL;
 }
